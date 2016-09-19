@@ -1,0 +1,387 @@
+@media (max-width: 700px){
+	h1.title{
+		letter-spacing: 0px;
+	}
+	.introduction{
+		font-size: 23px;
+	}
+}
+@media (max-width: 933px){
+	footer .foot{
+		display: block;
+		margin:5px auto;
+		text-align: center;
+		position:static;
+	}
+	footer .logo-small{
+		position:static;
+	}
+}	
+@media (max-width: 770px){
+	section .title{
+		padding-top:100px;
+	}
+}
+html,body{
+	height:100%;
+}
+*:focus{
+	outline:none;
+	border: 1px solid #F5D76E;
+}
+body{
+	font-family: 'open-sans', Helvetica, sans-serif;
+	font-size: 16px;
+	margin:0;
+	color:#fff;
+	background: black;
+
+}
+header{
+	background-image:url(../images/IMG_2327_faded.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:100%;
+	height:800px;
+	background-position: bottom;
+}
+
+h1,h2,h3,h4,h5,h6{
+	text-align: center;
+	margin:inherit;
+	font-family: 'six-caps',helvetica,sans-serif;
+
+}
+h2{
+	font-family: 'open-sans', Helvetica, sans-serif;
+	font-size: 23px
+}
+li{
+	list-style: none;
+}
+ul li{
+	display:inline-block;
+}
+button{
+	background:rgba(0,0,0,0.0);
+	border:1px solid #fff;
+	border-radius: 2px;
+	padding:10px;
+	color: #fff;
+	font-family: 'open-sans',helvetica,sans-serif;
+	font-size: 16px
+}
+button:hover{
+	background:#fff;
+	color: #222;
+}
+.title{
+	color: #fff;
+  	font-family: 'lato', helvetica, sans-serif;
+  	font-weight: 100;
+  	/*font-style: italic;*/
+  	text-transform: uppercase;
+  	font-size: 80px;
+  	letter-spacing: 15px;
+  	/*top: 220px;*/
+  	/*position: relative;*/
+  	/*margin:0;*/
+  	/*display: block;*/
+  	margin:0 auto;
+}
+.menu{
+	text-align: center;
+	position:relative;
+	margin-top:0;
+	padding-top: 50px;
+	left:-20px;
+
+}
+.menu li a {
+	text-decoration: none;
+	color:white;
+	padding:20px 10px;	
+}
+li a:hover {
+	border-bottom: 5px solid #fff;
+}
+/*.logo{
+	color: #fff;
+  border: 10px solid #fff;
+  display: block;
+  width: 120px;
+  font-family: 'six-caps',helvetica,sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 84px;
+  line-height: 80px;
+  margin: 0 auto;
+  top: 200px;
+  position: relative;
+  letter-spacing: 5px;
+  text-indent: 12px;
+}*/
+.logo-small{
+	background-image: url(../images/handro_logo.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width:50px;
+	height:70px;
+	display:inline-block;
+	margin:0 auto;
+	position:relative;
+	left:-80px;
+}
+
+.shortended-header{
+	height:100px;
+	width:100%;
+	position:fixed;
+	background: -webkit-linear-gradient(black, rgba(0,0,0,.0)); /* For Safari 5.1 to 6.0 */
+ 	background: -o-linear-gradient(black, rgba(0,0,0,.0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, rgba(0,0,0,.0)); /* For Firefox 3.6 to 15 */
+ 	background: linear-gradient(black, rgba(0,0,0,.0)); /* Standard syntax */
+	top:0;
+	text-align: center;	
+}
+.mini{
+	font-size: 40px;
+	line-height:40px;
+	text-indent:6.5px;
+	width:60px;
+	border-width: 3px;
+	top:3px;
+	margin:0 0 5px 20px;
+	display:inline-block;
+	z-index: 3;
+	text-decoration: none
+}
+.overlay{
+	width:100%;
+	height:100px;
+	position:fixed;
+	z-index: 2;
+	background:#F9BF3B;
+	top:0;
+	opacity:.95;
+}
+.about-me{
+	background: black;
+	padding:100px 0;
+
+}
+.about-blurb{
+	max-width: 400px;
+	text-indent:20px;
+	/*display:inline-block;*/
+	/*vertical-align: top;*/
+	/*margin-top: 200px;*/
+	line-height:20px;
+	text-align: left;
+}
+.about-blurb-container{
+	/*margin-left:15%;*/
+	min-width: 320px;
+	display:inline-block;
+
+}
+.about-wrapper{
+	text-align: center;
+}
+.myface{
+	width:400px;
+	display:inline-block;
+}
+.copy{
+	display:inline-block;
+	color:black;
+	position: relative;
+	left: -20%;
+	top: -20px;
+}
+.social{
+	display:inline-block;
+	position: relative;
+	left: 15%;
+	top: -23px;
+
+}
+.social a{
+	color:black;
+	text-decoration: none;
+
+}
+footer{
+	padding:20px 0;
+	background: #D2D7D3;
+	bottom:0;
+	width:100%;
+	text-align: center
+}
+
+a:hover{
+	color:#fff;
+}
+.no-relative{
+	top:0;
+}
+.header-menu li a{
+	text-decoration: none;
+	list-style:none;
+	color:white;
+	z-index:3;
+	position:relative;
+
+
+
+}
+.header-menu li{
+	margin-left: 10px;
+	
+}
+.header-menu{
+	display:inline-block;
+	font-family: 'lato',helvetica,sans-serif;
+	
+	
+	margin:35px 0;
+	padding-left: 0;
+
+}
+section{
+	background:black;
+}
+
+input{
+	display:block;
+	font-size: 26px;
+	padding:5px;
+	margin:5px auto;
+	color:#F5D76E;
+	background-color: rgba(0,0,0,0.0);
+	border:none;
+	border-bottom: 1px solid #fff;
+	
+
+	
+}
+form{
+	text-align: center;
+	/*padding-bottom:100px;*/
+	/*opacity:.5;*/
+	color: #fff;
+	/*display: block;*/
+	width:320px;
+	padding:20px;
+	background-color: rgba(0, 0, 0, 0.44);
+	margin:0 auto;
+	border-radius: 10px
+}
+textarea{
+	color:#F5D76E;
+	background-color: rgba(0,0,0,0.0);
+	font-size: 16px;
+	display: block;
+	margin:5px auto;
+	border:none;
+}
+.avoid-header{
+	padding-top:150px;
+}
+.contact{
+	background-image: url(../images/5278-smoke-on-carbon-pattern-1280x800-abstract-wallpaper.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:100%;
+	background-position: bottom;
+}
+.web-card{
+	width:320px;
+	display:inline-block;
+	margin:20px;
+	vertical-align: top
+}
+.web-card img{
+	max-width:100%;
+}
+.zindexzero{
+	z-index:0;
+	position: static;
+}
+.web{
+	text-align: center;
+	margin:0 auto;
+	background-image: url(../images/5278-smoke-on-carbon-pattern-1280x800-abstract-wallpaper.jpg);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.notification-success{
+	text-align: center;
+	color:green;
+
+}
+.notification-error{
+	text-align: center;
+	color:red;
+}
+.header-menu li .active{
+	border-bottom: 5px solid #F5D76E;
+	color: #F5D76E;
+}
+.header-menu li a:hover{
+	 border-bottom: 5px solid #fff 
+	/*border-bottom: 5px solid #FFF;*/
+}
+.hide{
+	display:none;
+}
+.logoTwo{
+	background-image: url(../images/handro_logo.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width:120px;
+	height:170px;
+	/*position: absolute;*/
+	margin:100px auto;
+	/*top:200px;*/
+	/*left:100px;*/
+}
+.work{
+	
+	margin-right:16px;
+}
+.headerLogo{
+	background-image: url(../images/handro_logo.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width:50px;
+	height:70px;
+	display:inline-block;
+ 	text-align: left;
+ 	position: absolute;
+ 	top: 26px;
+ 	left: 26px;
+}
+.scroll{
+	background-image: url(../images/scroll_down.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width:50px;
+	height:70px;
+	margin:50px auto;
+
+}
+li a{
+	letter-spacing: 5px;
+	text-transform:uppercase;
+	padding:20px 10px;
+	margin:40px;
+}
+
+
+
+
+
+
+
